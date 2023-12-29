@@ -45,10 +45,10 @@ Analysis of sentiment data is essential in the COVID-19 era for comprehending au
 ### **Results Of En-sentiment Model**
 Intriguing insights were obtained from applying the en-sentiment model to the dataset that had undergone the same pre-processing procedures as the LSTM-GRU model. The model assigned 2117 of the 3655 numbers made public during the COVID-19 period as negative, and 1538 as positive. In line with the findings of the LSTM-GRU model, this sentiment classification implies that songs produced during the epidemic frequently express unpleasant sentiments. Most of these statistics consistently exhibit negative emotion, according to both models. It highlights the enormous effect of the epidemic on the emotional tone of music and captures the mood of the world during these trying times. These findings demonstrate how well both models capture emotional tendencies in the dataset and suggest how emotional contagion may affect artistic expression.
 
-![Distribution of each sentiment category by en-sentiment model](https://github.com/jiageorg/-Analysing-effect-of-Covid-19-on-Song-Using-Sentiment-Analysis/blob/master/git1.png)
+![Distribution of each sentiment category by en-sentiment model](https://github.com/jiageorg/-Analysing-effect-of-Covid-19-on-Song-Using-Sentiment-Analysis/blob/master/result2.png)
 ### **Results of En-sentiment Model Validation**
 Using a manually annotated dataset with the lyrics to 8 songs and their associated sentiment labels, the en-sentiment classifier was validated. For model validation, this manually created dataset served as the "ground truth". In 7 out of 8 instances, the model accurately identified the sentiment, displaying an amazing accuracy of 87.5%. The model's ability to accurately identify the sentiment of lyrics is highlighted by this high level of accuracy. The pre-trained model is validated to confirm its accuracy and reliability before being used for other lyric sentiment analysis tasks.
 
-![Sentiment distribution after the validation of en-sentiment model](https://github.com/jiageorg/-Analysing-effect-of-Covid-19-on-Song-Using-Sentiment-Analysis/blob/master/git2.png)
+![Sentiment distribution after the validation of en-sentiment model](https://github.com/jiageorg/-Analysing-effect-of-Covid-19-on-Song-Using-Sentiment-Analysis/blob/master/result3.png)
 ## **Acknowledgments**
 This project acknowledges the availability of public datasets and the contributions of the open-source community.
