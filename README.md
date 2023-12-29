@@ -33,7 +33,7 @@ Results
 Results Of LSTM-GRU Model
 
 Analysis of sentiment data is essential in the COVID-19 era for comprehending audience reactions and emotions. To analyze such data, LSTM-GRU hybrid model was built. With 51.9% negative attitudes and 48.1% positive feelings, the test dataset, which is representative of this time period, displayed a slightly more negative sentiment distribution. It depicts a negative sentiment that captures the difficulties and unpredictability experienced globally throughout the pandemic.
- 
+ ![Result 1](https://github.com/jiageorg/-Analysing-effect-of-Covid-19-on-Song-Using-Sentiment-Analysis/blob/master/git1.1.png)
 The model's 83% training accuracy shows that it has significantly learned from the training data. The accuracy varied when applied to the validation set and peaked at 65.58% in the third epoch. Overfitting is indicated by the variance and the discrepancy in accuracy between training and validation.
 The model's test accuracy is 57.5%. This highlights the need for model improvements even though it is still better than arbitrary guesses. The overfitting issue was confirmed by the model's loss on the test set, which was approximately 0.96 and greater than the validation loss during training.
 The prevalence of negative sentiment during pandemics underscores the value of employing reliable sentiment analysis algorithms. The results of this study show that improved generalization in model training is required, maybe through better regularization methods or better model architectures.
