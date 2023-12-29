@@ -49,5 +49,6 @@ Intriguing insights were obtained from applying the en-sentiment model to the da
 ### **Results of En-sentiment Model Validation**
 Using a manually annotated dataset with the lyrics to 8 songs and their associated sentiment labels, the en-sentiment classifier was validated. For model validation, this manually created dataset served as the "ground truth". In 7 out of 8 instances, the model accurately identified the sentiment, displaying an amazing accuracy of 87.5%. The model's ability to accurately identify the sentiment of lyrics is highlighted by this high level of accuracy. The pre-trained model is validated to confirm its accuracy and reliability before being used for other lyric sentiment analysis tasks.
 
+![Sentiment distribution after the validation of en-sentiment model](https://github.com/jiageorg/-Analysing-effect-of-Covid-19-on-Song-Using-Sentiment-Analysis/blob/master/git2.png)
 ## **Acknowledgments**
 This project acknowledges the availability of public datasets and the contributions of the open-source community.
