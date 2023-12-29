@@ -39,6 +39,7 @@ git clone https://github.com/jiageorg/-Analysing-effect-of-Covid-19-on-Song-Usin
 ## **Results**
 ### **Results Of LSTM-GRU Model**
 Analysis of sentiment data is essential in the COVID-19 era for comprehending audience reactions and emotions. To analyze such data, LSTM-GRU hybrid model was built. With 51.9% negative attitudes and 48.1% positive feelings, the test dataset, which is representative of this time period, displayed a slightly more negative sentiment distribution. It depicts a negative sentiment that captures the difficulties and unpredictability experienced globally throughout the pandemic.
+
 ![Percentage of each sentiment category in the test set of LSTM-GRU model.](https://github.com/jiageorg/-Analysing-effect-of-Covid-19-on-Song-Using-Sentiment-Analysis/blob/master/git1.1.png)
 
 ### **Results Of En-sentiment Model**
